@@ -33,3 +33,5 @@ El episodio termina si:
 - el módulo de aterrizaje sale de la ventana gráfica (la coordenada x es mayor que 1);
 
 - el módulo de aterrizaje no está despierto. De los documentos de Box2D, un cuerpo que no está despierto es un cuerpo que no se mueve y no choca con ningún otro cuerpo:
+
+>Cuando Box2D determina que un cuerpo (o grupo de cuerpos) se ha detenido, el cuerpo entra en un estado de suspensión que tiene muy poca sobrecarga de CPU. Si un cuerpo está despierto y choca con un cuerpo dormido, entonces el cuerpo dormido se despierta. Los cuerpos también se despertarán si se destruye una articulación o un contacto adherido a ellos.
