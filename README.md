@@ -54,9 +54,7 @@ Hay 2 entornos de aterrizaje lunar diferentes en OpenAIGym. Uno tiene espacio de
 
 Para la practica vamos a resolver el problema utilizando un algoritmo DQN, el cual es compatible y trabaja bien para espacios de accion tanto discretos como continuos.
 
-Tambien utilizamo una politica "Actor Critic" ...
-
-      explicar sobre las politicas empleadas
+Tambien utilizamo una politica "Actor Critic".
 
 ## Resultados
 
